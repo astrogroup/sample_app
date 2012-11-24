@@ -1,0 +1,500 @@
+  130  cd ../
+  131  ls
+  132  cd sample1-2
+  133  ls
+  134  meteor
+  135  ls
+  136  vim common.js
+  137  vim common.js
+  138  vim common.js
+  139  cd ../sample1-1
+  140  ls
+  141  meteor
+  142  ls
+  143  cd ../sample3-1/
+  144  ls
+  145  meteor
+  146  cd ../sample3-2
+  147  ls
+  148  meteor
+  149  meteor deploy arerebcho30.meteor.com
+  150  ls
+  151  ls
+  152  cd ../
+  153  ls 
+  154  cd leaderboard/
+  155  ls
+  156  meteor leaderboard
+  157  meteor
+  158  meteor
+  159  meteor
+  160  meteor
+  161  meteor
+  162  cd ../
+  163  ls
+  164  meteor reate --example todos
+  165  meteor create --example todos
+  166  cd todos
+  167  meteor
+  168  meteor
+  169  ls
+  170  vim adding.html
+  171  vim adding.html
+  172  vim adding.html
+  173  vim adding.html
+  174  ls
+  175  pwd
+  176  git status
+  177  pwd
+  178  git status
+  179  git status
+  180  git add .
+  181  git add -u
+  182  git commit -m "世界遺産追加・考古学博物館追加"
+  183  git pull origin master
+  184  git push origin master
+  185  ls
+  186  rails help
+  187  ruby help
+  188  ruby --help
+  189  ruby --version
+  190  ls
+  191  curl -L https://get.rvm.io | bash -s stable --ruby
+  192  curl -L https://get.rvm.io | bash -s stable --rails
+  193  rvm
+  194  /Users/usr/.rvm/scripts/rvm
+  195  rvm
+  196  source /Users/usr/.rvm/scripts/rvm
+  197  type rvm
+  198  rvm
+  199  rvm --v
+  200  rvm -help
+  201  rvm help
+  202  type rvm | head -n 1
+  203  rvm requirements
+  204  rvm list known
+  205  rvm list
+  206  rvm install 1.9.2
+  207  rvm use 1.9.2
+  208  rvm list
+  209  rvm list -known
+  210  rvm list known
+  211  rvm install 1.9.2-p320
+  212  rvm list known
+  213  cat ~/.rvm/log/ruby-1.9.2-p320/yaml/configure.log 
+  214  cat ~/.rvm/log/ruby-1.9.2-p320/configure.log 
+  215  rvm install 2.0.0
+  216  rvm install 1.9.3
+  217  rvm list
+  218  rvm install 1.9.3
+  219  ls
+  220  homebrew
+  221  ruby -e "$(curl -fsSkL raw.github.com/mxcl/homebrew/go)"
+  222  brew update
+  223  brew tap homebrew/dupes
+  224  brew install autoconf automake apple-gcc42
+  225  rvm pkg install openssl
+  226  ls
+  227  pwd
+  228  ls
+  229  ls -la
+  230  rvm pkg install openssl
+  231  apple-gcc42
+  232  brew help
+  233  history
+  234  brew doctor
+  235  brew -v
+  236  rvm pkg install openssl
+  237  vi .rvm/log/openssl/make.log 
+  238  brew doctor
+  239  history
+  240  rvm pkg install openssl
+  241  rvm install 1.9.2
+  242  rvm -list
+  243  rvm list
+  244  rvm use 1.9.2 --default
+  245  rvm list
+  246  ruby -v
+  247  rvm --default use 1.9.2@rails3tutorial
+  248  rvm --create use 1.9.2@rails3turorial
+  249  rvm -list
+  250  rvm list
+  251  rvm gemset --help
+  252  ls
+  253  ls
+  254  history
+  255  which gem
+  256  ls -la
+  257  rvm 1.9.2
+  258  rvm list
+  259  rvm 1.9.2; rails--version
+  260  rvm 1.9.2 ; rails--version
+  261  rvm 1.9.2 ; rails --version
+  262  rvm gemset list
+  263  rvm gemset use rails3tutorial
+  264  rvm gemset use rails3turorial
+  265  rvm gemset list
+  266  rvm gemset use rai
+  267  rvm gemset list
+  268  rvm gemset --help
+  269  rails -v
+  270  rvm gemset use rails3turorial
+  271  sudo gem install rails --version 3.0.7
+  272  rvm gemset list
+  273  gem list
+  274  rvm gem use default
+  275  rvm gemset use default
+  276  gem list
+  277  rvm gemset use rails3turorial
+  278  gem list
+  279  gem -v
+  280  ls
+  281  cd Documents/
+  282  ls
+  283  cd Rails/
+  284  ls
+  285  mkdir rails_projects
+  286  cd rails_projects/
+  287  ls
+  288  rails new first_app
+  289  history
+  290  rvm --default use 1.9.2@rails3turorial
+  291  rvm list
+  292  rvm gemset list
+  293  gem list
+  294  rails -v
+  295  sudo install rails --version 3.0.7
+  296  sudo gem install rails --version 3.0.7
+  297  rails -v
+  298  gem list
+  299  rvm gemset list
+  300  gemset
+  301  gem list
+  302  pwd
+  303  ls
+  304  rails new first_app
+  305  ls
+  306  cd first_app/
+  307  ls
+  308  mate Gemfile
+  309  vim Gemfile 
+  310  bundle install
+  311  vim Gemfile 
+  312  bundle install
+  313  rails server
+  314  ls
+  315  git init
+  316  ls -la
+  317  vim .gitignore 
+  318  git add .
+  319  git status
+  320  git commit -m "Initisl commit"
+  321  git status
+  322  git remote add origin ssh://git@bitbucket.org/astrogroup/first_app.git
+  323  git push -u origin master
+  324  git push -u origin master
+  325  git remote add origin https://git@bitbucket.org/astrogroup/first_app.git
+  326  git remote 
+  327  git remote -help
+  328  git remote rm origin
+  329  git remote add origin https://git@bitbucket.org/astrogroup/first_app.git
+  330  git push -u origin master
+  331  git push -u origin master
+  332  git push -u origin master
+  333  git remote rm origin
+  334  git remote add origin https://astrogroup@bitbucket.org/astrogroup/first_app.git
+  335  git push -u origin master
+  336  ls
+  337  gem install heroku
+  338  heroku keys:add
+  339  heroku keys:add
+  340  heroku create
+  341  git push heroku master
+  342   git remote
+  343  ssh
+  344  ls
+  345  heroku stack
+  346  ls
+  347  pwd
+  348  vi .bash_profile
+  349  ls
+  350  l
+  351  ls
+  352  ls
+  353  rvm list
+  354  ls -la
+  355  man ls
+  356  ls
+  357  vi .bash_profile
+  358  textedit .bash_profile 
+  359  vim .bash_profile 
+  360  ls
+  361  ls -la
+  362  ls -la
+  363  ls
+  364  grep *.vim
+  365  grep cat
+  366  ls -la 
+  367  ls -la
+  368  ls
+  369  vim .bash_profile 
+  370  PS1?
+  371  bash ps1?
+  372  export PS1="$PWD"
+  373  ls
+  374  echo $PS1
+  375  su root
+  376  su root
+  377  su 
+  378  su
+  379  su root
+  380  export PS="[\W[\34]] \$"
+  381  export PS1="[\W[\34]] \$"
+  382  export PS1="\e[1;34m\W \$]"
+  383  export PS1="\e[1;34m\W \$\e[m"
+  384  ls
+  385  cd Documents/
+  386  ls
+  387  export PS1="\e[0;34m\W \$\e[m"
+  388  cd ../
+  389  ls
+  390  vim .bash_profile 
+  391  ls
+  392  cd ../
+  393  ls
+  394  cd -
+  395  ls
+  396  su
+  397  ls
+  398  vim .bash_profile 
+  399  ls
+  400  ls -la
+  401  history
+  402  git push heroku master
+  403  ls
+  404  pwd
+  405  cd ../
+  406  ls
+  407  pwd
+  408  git heroku master
+  409  git push heroku master
+  410  vim Rakefile 
+  411  vim config.ru
+  412  vim Gemfile
+  413  git push heroku master
+  414  bundle install
+  415  vim Gemfile
+  416  heroku stack
+  417  vim Gemfile
+  418  git push heroku master
+  419  bundle install
+  420  vim Gemfile
+  421  git push heroku master
+  422  git status
+  423  git add .
+  424  git commit -m "modify gemfile"
+  425  git push heroku master
+  426  vim Gemfile
+  427  ls
+  428  cd ../
+  429  ls
+  430  rails new demo_aap
+  431  cd demo_aap/
+  432  ls
+  433  vim Gemfile 
+  434  bundle install
+  435  git init
+  436  ls
+  437  vim .gitignore 
+  438  ls
+  439  git add .
+  440  git commit -m "initial commit"
+  441  git remote add origin https://github.com/astrogroup/demo_app.git
+  442  git push -u origin master
+  443  git remote
+  444  git status
+  445  git remote -r
+  446  git status -r
+  447  git status
+  448  rails generate scaffold User name:string email:string
+  449  rake db:migrate
+  450  gem list
+  451  which sqlite3
+  452  vim Rakefile 
+  453  rake db:migrate
+  454  rails s
+  455  ls
+  456  vim config/routes.rb 
+  457  vim app/controllers/users_controller.rb 
+  458  ls
+  459  pwd
+  460  rails generate scaffold Micropost content:string user_id:integer
+  461  rake db:migrate
+  462  vim config/routes.rb 
+  463  vim app/models/user.rb 
+  464  vim app/models/micropost.rb 
+  465  history
+  466  vim app/controllers/microposts_controller.rb 
+  467  rails console
+  468  ruby puts "man".pluralize
+  469  ruby script/runner 'p puts "man".pluralize
+  470  ruby script/runner 'p "man".pluralize
+  471  ruby script/runner 'p "mouse".pluralize'
+  472  ruby script/console
+  473  ruby script/runner 'p "hoge"'
+  474  rails console
+  475  git status
+  476  git add .
+  477  git commit -m "dome with the demo app"
+  478  git push
+  479  heroku create
+  480  git push heroku master
+  481  heroku rake db:migrate
+  482  heroku db:push
+  483  gem install tap
+  484  gem install taps
+  485  heroku db:push
+  486  pwd
+  487  cd ../../
+  488  ls
+  489  cd ../
+  490  ls
+  491  ls
+  492  pwd
+  493  cd Documents/Rails/rails_projects/demo_aap/
+  494  ls
+  495  rails s
+  496  ls
+  497  ls
+  498  rails s
+  499  rails s
+  500  rails s
+  501  ruby example_user.rb 
+  502  ruby example_user.rb 
+  503  ruby example_user.rb 
+  504  ruby example_user.rb 
+  505  ruby example_user.rb 
+  506  ruby example_user.rb 
+  507  ruby example_user.rb 
+  508  ruby example_user.rb 
+  509  ruby example_user.rb 
+  510  ruby example_user.rb 
+  511  ruby example_user.rb 
+  512  ruby example_user.rb 
+  513  ruby example_user.rb 
+  514  ruby example_user.rb 
+  515  ruby example_user.rb 
+  516  ruby example_user.rb 
+  517  ruby example_user.rb 
+  518  ruby example_user.rb 
+  519  ruby example_user.rb 
+  520  ruby example_user.rb 
+  521  git status
+  522  git add .
+  523  git status
+  524  git commit -m "chapter4 exersize"
+  525  rspec spec
+  526  git push
+  527  git checkout master
+  528  git merge chapter4
+  529  git status
+  530  git add .
+  531  git commit -m "merged chapter4"
+  532  git status
+  533  git push
+  534  git branch
+  535  rspec spec
+  536  git push heroku master
+  537  ls
+  538  git branch
+  539  git checkout -b filling-in-layout
+  540  git rm example_user.rb 
+  541  git status
+  542  git add .
+  543  git commit -m "delete example_user.rb"
+  544  git checkout master
+  545  git checkout filling-in-layout
+  546  terminal
+  547  vim app/views/layouts/application.html.erb 
+  548  vim app/views/layouts/application.html.erb 
+  549  vim app/views/pages/home.html.erb 
+  550  rspec spec
+  551  vim public/stylesheets/custom.css
+  552  vim public/stylesheets/custom.css
+  553  mvim public/stylesheets/custom.css 
+  554  vim app/views/layouts/application.html.erb 
+  555  mkfile app/views/layouts/_stylesheets.html.erb
+  556* 
+  557  vim app/views/layouts/application.html.erb 
+  558  vim app/views/layouts/_header.html.erb
+  559  vim app/views/layouts/application.html.erb 
+  560  rails generate integration_test layout_links
+  561  vim spec/requests/layout_links_spec.rb 
+  562  vim app/views/pages/help.html.erb 
+  563  vim .autoset 
+  564  git mv .autoset .autotest
+  565  vim .autotest
+  566  vim config/routes.rb 
+  567  vim config/routes.rb 
+  568  git rm public/index.html 
+  569  git commit -am "Remove default Rails page"
+  570  git status
+  571  vim app/views/layouts/_header.html.erb 
+  572  vim spec/controllers/pages_controller_spec.rb 
+  573  rails generate controller Users new
+  574  rm -rf spec/views/
+  575  rm -rf spec/helpers/
+  576  vim spec/controllers/users_controller_spec.rb 
+  577  vim app/controllers/users_controller.rb 
+  578  vim spec/controllers/users_controller_spec.rb 
+  579  vim app/views/users/new.html.erb 
+  580  vim app/controllers/pages_controller.rb 
+  581  vim app/controllers/pages_controller.rb 
+  582  vim app/controllers/users_controller.rb 
+  583  vim config/routes.rb 
+  584  vim spec/requests/layout_links_spec.rb 
+  585  vim config/routes.rb 
+  586  vim app/views/layouts/_footer.html.erb 
+  587* vim app/views/
+  588  vim app/views/layouts/_header.html.erb 
+  589  vim app/views/pages/home.html.erb 
+  590  rspac spec
+  591  rspec spec
+  592  git add .
+  593  git commit -m "Finished layout and routes"
+  594  git checkout master
+  595  git merge filling-in-layout
+  596  git status
+  597  rspec spec
+  598  git push 
+  599  git push heroku master
+  600  git status
+  601  vim app/views/layouts/_header.html.erb 
+  602  vim app/helpers/application_helper.rb 
+  603  vim spec/requests/layout_links_spec.rb 
+  604  vim spec/requests/layout_links_spec.rb 
+  605  vim app/views/pages/home.html.erb 
+  606  vim app/views/pages/home.html.erb 
+  607  vim spec/requests/layout_links_spec.rb 
+  608  git status
+  609  git branch
+  610  git add .
+  611  git commit -m "Finished chapeter5 exersize"
+  612  git push
+  613  git pull 
+  614  rspec spec
+  615  git push heroku master
+  616  git status
+  617  rspec spec
+  618  git status -r
+  619  git 
+  620  git status
+  621  git status --help
+  622  git branch
+  623  git checkout -b modeling-users
+  624  rails generate mode User name:string email:string
+  625  gem
+  626  gem list
+  627  gem intall autotest-fsevent -v 0.2.4
+  628  gem install autotest-fsevent -v 0.2.4
+  629  history > test.txt
