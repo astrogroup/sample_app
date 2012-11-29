@@ -32,6 +32,18 @@ describe UsersController do
 			get :new
 			response.should have_selector("input[name='user[password_confirmation]'][type='password']")
 		end
+
+		describe "for already sigin-in users" do
+			before(:each) do
+				@user = Factory(:user)
+				test_sign_in(@user)
+			end
+
+			it "should redirect to the root page" do
+				get :new
+				response.should redirect_to(root_path)
+			end
+		end
 	end
 
 	describe "GET 'show'" do
@@ -121,6 +133,18 @@ describe UsersController do
 				controller.should be_signed_in
 			end
 
+		end
+
+		describe "for already sigin-in users" do
+			before(:each) do
+				@user = Factory(:user)
+				test_sign_in(@user)
+			end
+
+			it "should redirect to the root page" do
+				post :create, :user => @attr
+				response.should redirect_to(root_path)
+			end
 		end
 			
 	end
@@ -307,6 +331,12 @@ describe UsersController do
 				response.should redirect_to(signin_path)
 			end
 
+			it "'delete' links should not appear" do
+				get :index
+				response.should_not have_selector("a", #href need?
+											:content => "delete")
+			end
+
 		end
 
 		describe "as a non-admin-user" do
@@ -315,13 +345,34 @@ describe UsersController do
 				delete :destroy, :id => @user
 				response.should redirect_to(root_path)
 			end
+
+			it "'delete' links should not appear" do
+				get :index
+				response.should_not have_selector("a", #href need?
+											  :content => "delete")
+			end
 		end
 
 		describe "as an admin user" do
 
 			before(:each) do
 				admin = Factory(:user, :email => "admin@example.com", :admin => true)
-				test_sign_in(admin)
+				@admin=test_sign_in(admin)
+			end
+
+			it "'delete' links should appear" do
+				get :index
+				response.should have_selector("a", #href need?
+											  :content => "delete")
+			end
+
+			it "'delete' links for themselves should not apper" do
+				get :index
+				#p "-----!!!!!!!!!!!!!!!!!----"
+				#p "admin=#{User.find_by_email(@admin.email).id}"
+				#p "-----!!!!!!!!!!!!!!!!!----"
+				response.should_not have_selector("a", :href => "/users/#{User.find_by_email(@admin.email).id}",
+											  :content => "delete")
 			end
 
 			it "should destroy the user" do
@@ -334,7 +385,13 @@ describe UsersController do
 				delete :destroy, :id => @user
 				response.should redirect_to(users_path)
 			end
+
+			it "should not destroy themselves" do
+				lambda do
+					delete :destroy, :id => @admin
+				end.should_not change(User, :count).by(-1)
+			end
+
 		end
 	end
-
 end
