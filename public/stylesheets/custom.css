@@ -184,4 +184,13 @@ div.field, div.actions {
 	list-style: square;
 }
 
+UL.USERS {
+	MARGIN-TOP: 1EM;
+}
+
+.USERS LI {
+	 LIST-STYLE: NONE;
+}
+
+
 
