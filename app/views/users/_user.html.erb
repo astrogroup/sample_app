@@ -1,8 +1,5 @@
 <li>
 <%= gravatar_for user, :size => 30 %>
-<%= "aaa#{user.id}aaa" %>
-<%= "bbb#{current_user.id}bbb" %>
-<%= "bbb#{user.admin?}bbb" %>
 <%= link_to user.name, user %>
 <% if current_user.admin? && user.id != current_user.id %>
 	| <%= link_to 	"delete", user, :method => :delete,
