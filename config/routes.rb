@@ -1,18 +1,13 @@
 SampleApp::Application.routes.draw do
 
-
-=begin
-  get "users/new"
-
-  get "pages/help"
-  get "pages/home"
-  get "pages/contact"
-  get "pages/about"
-=end
-
-	resources :users
+	resources :users do
+      member do
+        get :following, :followers
+      end
+    end
 	resources :sessions, :only => [:new, :create, :destroy]
 	resources :microposts, :only => [:create, :destroy]
+	resources :relationships, :only => [:create, :destroy]
 	match '/signup', :to => 'users#new'
 	match '/signin', :to => 'sessions#new'
 	match '/signout', :to => 'sessions#destroy'
